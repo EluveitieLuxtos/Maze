@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Maze" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Maze" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Maze" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="src/DisjointSet.h" />
+		<Unit filename="src/DisplayConsoleMazeTiled.cpp" />
+		<Unit filename="src/DisplayConsoleMazeTiled.h" />
+		<Unit filename="src/DisplayConsoleMazeWalls.cpp" />
+		<Unit filename="src/DisplayConsoleMazeWalls.h" />
+		<Unit filename="src/Door.cpp" />
+		<Unit filename="src/Door.h" />
+		<Unit filename="src/MazeTiled.cpp" />
+		<Unit filename="src/MazeTiled.h" />
+		<Unit filename="src/MazeWithWalls.cpp" />
+		<Unit filename="src/MazeWithWalls.h" />
+		<Unit filename="src/Tile.cpp" />
+		<Unit filename="src/Tile.h" />
+		<Unit filename="src/TileHexagon.cpp" />
+		<Unit filename="src/TileHexagon.h" />
+		<Unit filename="src/TileM1Square1.cpp" />
+		<Unit filename="src/TileM1Square1.h" />
+		<Unit filename="src/TileM1Square2.cpp" />
+		<Unit filename="src/TileM1Square2.h" />
+		<Unit filename="src/TileSquare.cpp" />
+		<Unit filename="src/TileSquare.h" />
+		<Unit filename="src/TileTriangle.cpp" />
+		<Unit filename="src/TileTriangle.h" />
+		<Unit filename="src/Wall.cpp" />
+		<Unit filename="src/Wall.h" />
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
